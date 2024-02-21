@@ -17,6 +17,7 @@ export const WALLPAPER_PATHS: Record<
     import("components/system/Desktop/Wallpapers/ShaderToy/CoastalLandscape"),
   HEXELLS: () => import("components/system/Desktop/Wallpapers/hexells"),
   MATRIX: () => import("components/system/Desktop/Wallpapers/Matrix"),
+  PURPLE: () => import("components/system/Desktop/Wallpapers/PurpleGradient"),
   STABLE_DIFFUSION: () =>
     import("components/system/Desktop/Wallpapers/StableDiffusion"),
   VANTA: () => import("components/system/Desktop/Wallpapers/vantaWaves"),
@@ -95,6 +96,10 @@ export const WALLPAPER_MENU: WallpaperMenuItem[] = [
     id: "VANTA",
     name: "Vanta Waves",
     startsWith: true,
+  },
+  {
+    id: "PURPLE",
+    name: "Purple Gradient",
   },
 ];
 
